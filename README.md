@@ -141,25 +141,43 @@ streamlit run app.py
 Project1_Twitter_Sentiment/
 │
 ├── app.py                      # Main Streamlit application
-├── setup.py                    # NLTK data download script
+├── setup.py                    # NLTK data download script for deployment
 ├── requirements.txt            # Python dependencies
-├── packages.txt                # System packages for deployment
+├── packages.txt                # System packages for Streamlit Cloud
 ├── README.md                   # Project documentation
 ├── .gitignore                  # Git ignore file
 │
 ├── .streamlit/
-│   └── config.toml            # Streamlit configuration
+│   └── config.toml            # Streamlit theme configuration
 │
 ├── images/
-│   └── dashboard_preview.png  # Screenshot for README
+│   └── dashboard_preview.png  # Application screenshot
 │
 ├── data/
-│   └── sample_tweets.csv      # Sample data file
+│   └── sample_tweets.csv      # Sample dataset for testing
 │
-├── notebooks/                  # Jupyter notebooks (for analysis)
-├── models/                     # Saved models (if any)
-└── venv/                       # Virtual environment
+├── notebooks/                  # Jupyter notebooks for analysis
+│   └── (For future EDA and experimentation)
+│
+├── models/                     # Trained models directory
+│   └── (For saving custom ML models)
+│
+└── venv/                       # Virtual environment (not tracked)
 ```
+
+### 📝 Folder Purposes
+
+| Folder | Purpose | Status |
+|--------|---------|--------|
+| **Root** | Main application files | ✅ Active |
+| **images/** | Screenshots and visual assets | ✅ Active |
+| **data/** | CSV files and datasets | ✅ Active |
+| **.streamlit/** | Deployment configuration | ✅ Active |
+| **notebooks/** | Jupyter notebooks for EDA | 🔄 Future use |
+| **models/** | Saved ML models | 🔄 Future use |
+| **venv/** | Python virtual environment | ✅ Active (gitignored) |
+
+**Note**: The `notebooks/` and `models/` folders are set up for future enhancements like custom model training and detailed exploratory data analysis.
 
 ## 🎯 Key Learnings
 
