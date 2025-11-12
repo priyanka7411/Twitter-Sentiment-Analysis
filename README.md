@@ -25,6 +25,11 @@ This project analyzes sentiments from tweets using two popular NLP methods:
 - **Text Preprocessing**: Automatic cleaning of URLs, mentions, hashtags
 - **Export Results**: Download analyzed data as CSV
 
+## 📸 Demo
+
+![Dashboard Preview](images/dashboard_preview.png)
+
+
 ## 🛠️ Technologies Used
 
 - **Python 3.11+**
