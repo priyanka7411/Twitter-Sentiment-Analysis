@@ -14,8 +14,7 @@ A comprehensive web application for analyzing sentiment in tweets using Natural 
 
 ## 🔗 Live Demo
 
-🌐 **[Try the app live here](https://your-app-url.streamlit.app)** *(Replace with your actual Streamlit Cloud URL)*
-
+🌐 **[Try the app live here](https://twitter-sentiment-analysis-lun8fydyw6tzm4qsx9wkmg.streamlit.app/)** 
 ---
 
 ## 📋 Project Overview
